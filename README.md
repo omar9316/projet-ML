@@ -1,11 +1,11 @@
 # projet-ML
 SARS-CoV-2 Classification Project
 
-Description
+# Description
 
 Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir si un patient est positif ou négatif) à l'aide de variables biologiques et virales issues d'un dataset médical. Le pipeline inclut l'analyse exploratoire, le prétraitement des données, la sélection des caractéristiques, et l'entraînement de modèles de machine learning.
 
-Données
+# Données
 
 Variables clés :
 
@@ -19,7 +19,7 @@ Variables biologiques (ex. : Hemoglobin, Leukocytes).
 
 Variables virales (ex. : Influenza A, Metapneumovirus).
 
-Pipeline
+# Pipeline
 
 1. Analyse exploratoire des données (EDA)
 
@@ -47,7 +47,7 @@ SVM
 
 KNN
 
-Evaluation :
+# Evaluation :
 
 Courbes d'apprentissage.
 

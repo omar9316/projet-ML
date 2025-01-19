@@ -78,7 +78,7 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 ### Exécution
 
-• Cloner ce dépôt : git clone [https://github.com/omar9316/projet-ML.git]
+• Cloner ce dépôt : git clone https://github.com/omar9316/projet-ML.git
 
 • Installer les dépendances : pip install -r requirements.txt
 

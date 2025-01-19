@@ -48,7 +48,7 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 • KNN
 
-# Evaluation :
+#### Evaluation :
 
 • Courbes d'apprentissage.
 

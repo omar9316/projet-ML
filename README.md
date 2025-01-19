@@ -90,12 +90,3 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
                 • Modélisation.ipynb
 
-### Structure des fichiers
-
-  • data/ : Contient le dataset brut.
-
-  • notebooks/ : Contient les notebooks pour chaque étape du projet.
-
-  • models/ : Contient les modèles enregistrés.
-
-  • README.md : Description du projet.

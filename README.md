@@ -24,29 +24,29 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 ### 1. Analyse exploratoire des données (EDA)
 
-Visualisation des distributions des variables biologiques et virales.
+•	Visualisation des distributions des variables biologiques et virales.
 
-Analyse des taux de valeurs manquantes pour identifier les groupes de variables pertinents.
+•	Analyse des taux de valeurs manquantes pour identifier les groupes de variables pertinents.
 
 ### 2. Prétraitement des données
 
-Encodage : Conversion des variables qualitatives en quantitatives.
+#### • Encodage : Conversion des variables qualitatives en quantitatives.
 
-Feature Engineering : Identification des patients "malades" à partir des variables virales.
+#### • Feature Engineering : Identification des patients "malades" à partir des variables virales.
 
-Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
+#### • Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
 
 ### 3. Modélisation
 
-Modèles utilisés :
+#### Modèles utilisés :
 
-Random Forest
+• Random Forest
 
-AdaBoost
+• AdaBoost
 
-SVM
+• SVM
 
-KNN
+• KNN
 
 # Evaluation :
 
@@ -66,11 +66,9 @@ Meilleur modèle : [indiquer le modèle].
 
 Scores obtenus :
 
-Précision : [valeur].
+Rappel : 0.6875.
 
-Rappel : [valeur].
-
-F1-Score : [valeur].
+F1-Score : 0.5581395348837209.
 
 Technologies
 

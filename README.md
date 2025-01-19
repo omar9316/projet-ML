@@ -30,11 +30,11 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 ### 2. Prétraitement des données
 
-#### • Encodage : Conversion des variables qualitatives en quantitatives.
+• Encodage : Conversion des variables qualitatives en quantitatives.
 
-#### • Feature Engineering : Identification des patients "malades" à partir des variables virales.
+• Feature Engineering : Identification des patients "malades" à partir des variables virales.
 
-#### • Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
+• Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
 
 ### 3. Modélisation
 
@@ -50,56 +50,52 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 # Evaluation :
 
-#### Courbes d'apprentissage.
+• Courbes d'apprentissage.
 
-#### Matrices de confusion.
+• Matrices de confusion.
 
-#### Rapports de classification.
+• Rapports de classification.
 
 ### 4. Optimisation des hyperparamètres
 
-Recherche aléatoire (RandomizedSearchCV) pour affiner les performances des modèles.
+• Recherche aléatoire (RandomizedSearchCV) pour affiner les performances des modèles.
 
-Résultats principaux
+### Résultats principaux
 
-Meilleur modèle : [indiquer le modèle].
+• Meilleur modèle : [indiquer le modèle].
 
-Scores obtenus :
+### Scores obtenus :
 
-Rappel : 0.6875.
+• Rappel : 0.6875.
 
-F1-Score : 0.5581395348837209.
+• F1-Score : 0.5581395348837209.
 
-Technologies
+### Technologies
 
-Langage : Python
+• Langage : Python
 
-Bibliothèques : pandas, numpy, matplotlib, seaborn, scikit-learn
+• Bibliothèques : pandas, numpy, matplotlib, seaborn, scikit-learn
 
-Exécution
+### Exécution
 
-Cloner ce dépôt :
+• Cloner ce dépôt : git clone [https://github.com/omar9316/projet-ML.git]
 
-git clone [https://github.com/omar9316/projet-ML.git]
+• Installer les dépendances : pip install -r requirements.txt
 
-Installer les dépendances :
+• Exécuter les notebooks dans l'ordre :
 
-pip install -r requirements.txt
+                • Analyse exploratoire des données.ipynb
 
-Exécuter les notebooks dans l'ordre :
+                • Prétraitement des données.ipynb
 
-Analyse exploratoire des données.ipynb
+                • Modélisation.ipynb
 
-Prétraitement des données.ipynb
+### Structure des fichiers
 
-Modélisation.ipynb
+  • data/ : Contient le dataset brut.
 
-Structure des fichiers
+  • notebooks/ : Contient les notebooks pour chaque étape du projet.
 
-data/ : Contient le dataset brut.
+  • models/ : Contient les modèles enregistrés.
 
-notebooks/ : Contient les notebooks pour chaque étape du projet.
-
-models/ : Contient les modèles enregistrés.
-
-README.md : Description du projet.
+  • README.md : Description du projet.

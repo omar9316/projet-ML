@@ -62,7 +62,7 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 ### Résultats principaux
 
-• Meilleur modèle : [indiquer le modèle].
+• Meilleur modèle : SVM.
 
 ### Scores obtenus :
 

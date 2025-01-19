@@ -1,106 +1,101 @@
 # projet-ML
-SARS-CoV-2 Classification Project
+# SARS-CoV-2 Classification Project
 
-Description
+# Description
 
 Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir si un patient est positif ou négatif) à l'aide de variables biologiques et virales issues d'un dataset médical. Le pipeline inclut l'analyse exploratoire, le prétraitement des données, la sélection des caractéristiques, et l'entraînement de modèles de machine learning.
 
-Données
+# Données
 
-Variables clés :
+### Variables clés :
 
-SARS-Cov-2 exam result : Variable cible (positive ou negative).
+•	SARS-Cov-2 exam result : Variable cible (positive ou negative).
 
-Patient age quantile : Catégorie d'âge du patient.
+•	Patient age quantile : Catégorie d'âge du patient.
 
-Groupes de variables :
+•	Groupes de variables :
 
-Variables biologiques (ex. : Hemoglobin, Leukocytes).
+•	Variables biologiques (ex. : Hemoglobin, Leukocytes).
 
-Variables virales (ex. : Influenza A, Metapneumovirus).
+•	Variables virales (ex. : Influenza A, Metapneumovirus).
 
-Pipeline
 
-1. Analyse exploratoire des données (EDA)
+# Pipeline
 
-Visualisation des distributions des variables biologiques et virales.
+### 1. Analyse exploratoire des données (EDA)
 
-Analyse des taux de valeurs manquantes pour identifier les groupes de variables pertinents.
+•	Visualisation des distributions des variables biologiques et virales.
 
-2. Prétraitement des données
+•	Analyse des taux de valeurs manquantes pour identifier les groupes de variables pertinents.
 
-Encodage : Conversion des variables qualitatives en quantitatives.
+### 2. Prétraitement des données
 
-Feature Engineering : Identification des patients "malades" à partir des variables virales.
+• Encodage : Conversion des variables qualitatives en quantitatives.
 
-Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
+• Feature Engineering : Identification des patients "malades" à partir des variables virales.
 
-3. Modélisation
+• Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
 
-Modèles utilisés :
+### 3. Modélisation
 
-Random Forest
+#### Modèles utilisés :
 
-AdaBoost
+• Random Forest
 
-SVM
+• AdaBoost
 
-KNN
+• SVM
 
-Evaluation :
+• KNN
 
-Courbes d'apprentissage.
+# Evaluation :
 
-Matrices de confusion.
+• Courbes d'apprentissage.
 
-Rapports de classification.
+• Matrices de confusion.
 
-4. Optimisation des hyperparamètres
+• Rapports de classification.
 
-Recherche aléatoire (RandomizedSearchCV) pour affiner les performances des modèles.
+### 4. Optimisation des hyperparamètres
 
-Résultats principaux
+• Recherche aléatoire (RandomizedSearchCV) pour affiner les performances des modèles.
 
-Meilleur modèle : [indiquer le modèle].
+### Résultats principaux
 
-Scores obtenus :
+• Meilleur modèle : [indiquer le modèle].
 
-Précision : [valeur].
+### Scores obtenus :
 
-Rappel : [valeur].
+• Rappel : 0.6875.
 
-F1-Score : [valeur].
+• F1-Score : 0.5581395348837209.
 
-Technologies
+### Technologies
 
-Langage : Python
+• Langage : Python
 
-Bibliothèques : pandas, numpy, matplotlib, seaborn, scikit-learn
+• Bibliothèques : pandas, numpy, matplotlib, seaborn, scikit-learn
 
-Exécution
+### Exécution
 
-Cloner ce dépôt :
+• Cloner ce dépôt : git clone [https://github.com/omar9316/projet-ML.git]
 
-git clone [https://github.com/omar9316/projet-ML.git]
+• Installer les dépendances : pip install -r requirements.txt
 
-Installer les dépendances :
+• Exécuter les notebooks dans l'ordre :
 
-pip install -r requirements.txt
+                • Analyse exploratoire des données.ipynb
 
-Exécuter les notebooks dans l'ordre :
+                • Prétraitement des données.ipynb
 
-Analyse exploratoire des données.ipynb
+                • Modélisation.ipynb
 
-Prétraitement des données.ipynb
+### Structure des fichiers
 
-Modélisation.ipynb
+  • data/ : Contient le dataset brut.
 
-Structure des fichiers
+  • notebooks/ : Contient les notebooks pour chaque étape du projet.
 
-data/ : Contient le dataset brut.
+  • models/ : Contient les modèles enregistrés.
 
-notebooks/ : Contient les notebooks pour chaque étape du projet.
-
-models/ : Contient les modèles enregistrés.
-
-README.md : Description du projet.
+  • README.md : Description du projet.

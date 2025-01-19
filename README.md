@@ -7,27 +7,28 @@ Ce projet vise à prédire les résultats des examens du SARS-CoV-2 (à savoir s
 
 # Données
 
-Variables clés :
+### Variables clés :
 
-SARS-Cov-2 exam result : Variable cible (positive ou negative).
+•	SARS-Cov-2 exam result : Variable cible (positive ou negative).
 
-Patient age quantile : Catégorie d'âge du patient.
+•	Patient age quantile : Catégorie d'âge du patient.
 
-Groupes de variables :
+•	Groupes de variables :
 
-Variables biologiques (ex. : Hemoglobin, Leukocytes).
+•	Variables biologiques (ex. : Hemoglobin, Leukocytes).
 
-Variables virales (ex. : Influenza A, Metapneumovirus).
+•	Variables virales (ex. : Influenza A, Metapneumovirus).
+
 
 # Pipeline
 
-1. Analyse exploratoire des données (EDA)
+### 1. Analyse exploratoire des données (EDA)
 
 Visualisation des distributions des variables biologiques et virales.
 
 Analyse des taux de valeurs manquantes pour identifier les groupes de variables pertinents.
 
-2. Prétraitement des données
+### 2. Prétraitement des données
 
 Encodage : Conversion des variables qualitatives en quantitatives.
 
@@ -35,7 +36,7 @@ Feature Engineering : Identification des patients "malades" à partir des variab
 
 Imputation des données : Suppression des lignes avec trop de valeurs manquantes.
 
-3. Modélisation
+### 3. Modélisation
 
 Modèles utilisés :
 
@@ -49,13 +50,13 @@ KNN
 
 # Evaluation :
 
-Courbes d'apprentissage.
+#### Courbes d'apprentissage.
 
-Matrices de confusion.
+#### Matrices de confusion.
 
-Rapports de classification.
+#### Rapports de classification.
 
-4. Optimisation des hyperparamètres
+### 4. Optimisation des hyperparamètres
 
 Recherche aléatoire (RandomizedSearchCV) pour affiner les performances des modèles.
 

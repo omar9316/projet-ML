@@ -1,5 +1,5 @@
 # projet-ML
-SARS-CoV-2 Classification Project
+### SARS-CoV-2 Classification Project
 
 # Description
 
